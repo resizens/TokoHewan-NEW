@@ -1,0 +1,82 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 70px;
+    background-color: #282828;
+}
+
+body, html{
+    height: 100%;
+}
+  
+.bg-image{
+    background-image: url("PSX_20200416_183234.jpg");
+  
+    filter: blur(4px);
+    -webkit-filter: blur(3px);
+  
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.bg-text{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    padding: 2px;
+    float: left;
+    margin-left: 23px;
+    margin-top: 6px;
+    color: yellow;
+    font-size: 2.4vw;
+}
+
+span{
+    color: white;
+}
+
+ul{
+    float: right;
+    margin-top: 7px;
+}
+
+li{
+    display: inline-block;
+    padding: 16px 30px;
+}
+
+a{
+    margin-top: auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+}
+
+a:hover{
+    color: yellow;
+    transition: 0.5s;
+
+}
+
+p1{
+    line-height: 2px;
+}
